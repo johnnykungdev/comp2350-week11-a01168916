@@ -33,7 +33,7 @@ const MongoClient = require("mongodb").MongoClient;
 
 const is_heroku = process.env.IS_HEROKU || false;
 
-const herokuURI = "mongodb+srv://johnnykung:tzuning615@clusterokewebsite.a4z3c.gcp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const herokuURI = "mongodb+srv://johnnykung:tzuning615@clusterokewebsite.a4z3c.gcp.mongodb.net/lab_example?=true&w=majority";
 
 const localURI = "mongodb://localhost:27017/?authSource=admin&retryWrites=true&w=majority"
 
